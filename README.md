@@ -1,16 +1,51 @@
-# day_task
+# 📅 DayTask — Task Management App
 
-A new Flutter project.
+DayTask is a clean, modern **Flutter task management application** backed by **Supabase**.  
+It allows users to securely manage daily tasks with authentication, real-time persistence, and a smooth UI experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Authentication
+- Email & password login
+- Secure signup using Supabase Auth
+- Logout support
+- Session-based user handling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📝 Task Management
+- Create new tasks
+- Edit existing tasks
+- Select task date & time
+- Mark tasks as completed
+- Delete / update tasks (backend-supported)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🎨 UI & UX
+- Clean dark theme UI
+- Minimal and distraction-free layout
+- Floating Action Button for quick task creation
+- Responsive layout (Web / Mobile ready)
+
+### ☁️ Backend (Supabase)
+- PostgreSQL database
+- Row Level Security (RLS)
+- Auth-protected task access
+- Cloud-hosted & scalable
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Technology |
+|-------------|------------|
+| Frontend     | Flutter (Dart) |
+| Backend      | Supabase |
+| Database     | PostgreSQL |
+| Auth         | Supabase Auth |
+| State Mgmt   | Stateful Widgets |
+| Platform     | Android · Web |
+
+---
+
+## 📂 Project Structure
+
